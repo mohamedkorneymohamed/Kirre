@@ -1,0 +1,657 @@
+/* global rolles */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main-title p{
+    max-width: 500px;
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px !important;
+}}
+::selection{
+    background-color: #e4e7eb;
+}
+/* start header */
+/* start nav */
+.navbar{
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+background-color: #fffffff7;
+}
+.navbar-nav .nav-link {
+transition: .5s;
+color: #000;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover{
+color: #e65f78 !important;  
+}
+button.navbar-toggler:focus{
+box-shadow: none;
+transition: .5s;
+}
+button.navbar-toggler[aria-expanded="true"]{
+border-color: #e65f78;
+}
+/* end nav */
+/* start home */
+.home{
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.home .container p{
+    max-width: 500px;
+    margin: auto;
+    color: rgb(255 255 255 / 75%);
+}
+.home .over-lay{
+    background-color: rgb(0 0 0 / 69%);
+}
+.home .container h1{
+    height: 80px;
+    margin-bottom: 30px;
+}
+.home .container h1::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50% , -50%);
+    animation: auto-type 15s linear infinite alternate;
+    font-size: 3rem;
+}
+/* I'M Kerri Deo.|*/
+
+@keyframes auto-type {
+    0%{
+      content: "I|"
+    }
+    1%{
+      content: "I'|"
+    }
+    2%{
+      content: "I'M|"
+    }
+    3%{
+      content: "I'M |"
+    }
+    4%{
+      content: "I'M K|"
+    }
+    5%{
+      content: "I'M Ke|"
+    }
+    6%{
+      content: "I'M Ker|"
+    }
+    7%{
+      content: "I'M Kerr|"
+    }
+    8%{
+      content: "I'M Kerri|"
+    }
+    9%{
+      content: "I'M Kerri |"
+    }
+    10%{
+      content: "I'M Kerri D|"
+    }
+    11%{
+      content: "I'M Kerri De|"
+    }
+    12%{
+      content: "I'M Kerri Deo|"
+    }
+    13%{
+      content: "I'M Kerri Deo.|"
+    }
+    14%{
+      content: "I'M Kerri Deo.|"
+    }
+    15%{
+      content: "I'M Kerri Deo.|"
+    }
+    16%{
+      content: "I'M Kerri Deo.|"
+    }
+    17%{
+      content: "I'M Kerri Deo.|"
+    }
+    18%{
+      content: "I'M Kerri Deo.|"
+    }
+    19%{
+      content: "I'M Kerri Deo.|"
+    }
+    21%{
+      content: "I'M Kerri Deo|"
+    }
+    22%{
+      content: "I'M Kerri De|"
+    }
+    23%{
+      content: "I'M Kerri D|"
+    }
+    24%{
+      content: "I'M Kerri |"
+    }
+    25%{
+      content: "I'M Kerri|"
+    }
+    25%{
+      content: "I'M Kerr|"
+    }
+    25%{
+      content: "I'M Ker|"
+    }
+    26%{
+      content: "I'M Ke|"
+    }
+    27%{
+      content: "I'M K|"
+    }
+    28%{
+      content: "I'M |"
+    }
+    /* I'M A Graphic Designer.|*/
+    29%{
+      content: "I'M A|"
+    }
+    30%{
+      content: "I'M A|"
+    }
+    31%{
+      content: " I'M A |"
+    }
+    32%{
+      content: "I'M A G"
+    }
+    33%{
+      content: "I'M A Gr|"
+    }
+    34%{
+      content: "I'M A Gra|"
+    }
+    35%{
+      content: "I'M A Grap|"
+    }
+    36%{
+      content: "I'M A Graph|"
+    }
+    37%{
+      content: "I'M A Graphi|"
+    }
+    38%{
+      content: "I'M A Graphic|"
+    }
+    39%{
+      content: "I'M A Graphic |"
+    }
+    40%{
+      content: "I'M A Graphic D|"
+    }
+    41%{
+      content: "I'M A Graphic De|"
+    }
+    42%{
+      content: "I'M A Graphic Des|"
+    }
+    43%{
+      content: "I'M A Graphic Desi|"
+    }
+    44%{
+      content: "I'M A Graphic Desig|"
+    }
+    45%{
+      content: "I'M A Graphic Designe|"
+    }
+    46%{
+      content: "I'M A Graphic Designer|"
+    }
+    47%{
+      content: "I'M A Graphic Designer.|"
+    }
+    /* web Desiner */
+    48%{
+      content: "I'M A Graphic Designer.|"
+    }
+    49%{
+      content: "I'M A Graphic Designer.|"
+    }
+    50%{
+      content: "I'M A Graphic Designer.|"
+    }
+    51%{
+      content: "I'M A Graphic Designer.|"
+    }
+    52%{
+      content: "I'M A Graphic Designer|"
+    }
+    53%{
+      content: "I'M A Graphic Designe|"
+    }
+    54%{
+      content: "I'M A Graphic Design|"
+    }
+    55%{
+      content: "I'M A Graphic Desig|"
+    }
+    56%{
+      content: "I'M A Graphic Desi|";
+    }
+    57%{
+      content: "I'M A Graphic Des|";
+    }
+    58%{
+      content: "I'M A Graphic De|";
+    }
+    59%{
+      content: "I'M A Graphic D|";
+    }
+    60%{
+      content: "I'M A Graphic |";
+    }
+    61%{
+      content: "I'M A Graphic|";
+    }
+    62%{
+      content: "I'M A Graphi|";
+    }
+    63%{
+      content: "I'M A Graph|";
+    }
+    64%{
+      content: "I'M A Grap|";
+    }
+    65%{
+      content: "I'M A Gra|";
+    }
+    66%{
+      content: "I'M A Gr|";
+    }
+    67%{
+      content: "I'M A G|";
+    }
+    68%{
+      content: "I'M A |";
+    }
+  /* I'M A Photographer.|*/
+    69%{
+      content: "I'M A P|";
+    }
+    70%{
+      content: "I'M A Ph|";
+    }
+    71%{
+      content: "I'M A Pho|";
+    }
+    72%{
+      content: "I'M A Phot|";
+    }
+    73%{
+      content: "I'M A Photo|";
+    }
+    74%{
+      content: "I'M A Photog|";
+    }
+    75%{
+      content: "I'M A Photogr|";
+    }
+    76%{
+      content: "I'M A Photogra|";
+    }
+    77%{
+      content: "I'M A Photograp|";
+    }
+    78%{
+      content: "I'M A Photograp|";
+    }
+    79%{
+      content: "I'M A Photograph|";
+    }
+    80%{
+      content: "I'M A Photographe.|";
+    }
+    81%{
+      content: "I'M A Photographer.|";
+    }
+    82%{
+      content: "I'M A Photographer.|";
+    }
+    83%{
+      content: "I'M A Photographer.|";
+    }
+    84%{
+      content: "I'M A Photographer|";
+    }
+    85%{
+      content: "I'M A Photographe|";
+    }
+    86%{
+      content: "I'M A Photograph.|";
+    }
+    87%{
+      content: "I'M A Photograp|";
+    }
+    88%{
+      content: "I'M A Photogra|";
+    }
+    89%{
+      content: "I'M A Photogr|";
+    }
+    90%{
+      content: "I'M A Photog|";
+    }
+    91%{
+      content: "I'M A Photo|";
+    }
+    92%{
+      content: "I'M A Phot|";
+    }
+    93%{
+      content: "I'M A Pho|";
+    }
+    94%{
+      content: "I'M A Ph|";
+    }
+    95%{
+      content: "I'M A P|";
+    }
+    100%{
+      content: "I'M A|";
+    }}
+/* start up and down  */
+.up-and-down {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 30px;
+  height: 30px;
+}
+.up-and-down a{
+width: 24px;
+height: 40px;
+border: 2px solid white;
+display: inline-block;
+border-top-right-radius: 50%;
+border-bottom-left-radius: 50%;
+text-align: center;
+line-height: 30px;
+}
+.up-and-down a span{
+  width: 2px;
+  height: 10px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  transform: rotate(348deg);
+}
+
+/* end up and down  */
+/* end home */
+/* end header */
+/* start back top top  */
+
+.back_top  {
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    height: 35px;
+    width: 35px;
+    display: none;
+    z-index: 10000;
+    border-radius: 3px;
+    right: 20px;
+    transition: all 0.5s;
+    background-color: #e65f78;
+}
+.back_top i{
+    color: #fff;
+    line-height: 35px;
+    font-size: 1.3rem;
+    display: block
+}
+/* end back top top  */
+/* start switcher  */
+.switcher{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 30%;
+    height: 35px;
+    width: 35px;
+    display: none;
+    z-index: 10000;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: all 0.5s;
+    background-color: #2b2424;
+}
+.switcher i{
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+/* end switcher  */
+/* start about */
+.about-info h4 a   {
+    color: #e65f78;
+}
+.about-social li a {
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    line-height: 38px;
+    transition: all 0.5s;
+    text-align: center;
+}
+.about-social li a:hover {
+    color:#e65f78;
+    border-color: #e65f78;
+}
+/* end about */
+/* start services */
+.services-card{
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+}
+.services-card .card-icon i{
+color: #e65f78;
+}
+.services-card .card-content h5{
+position: relative;    
+}
+.services-card .card-content h5::before{
+content: "";
+position: absolute;
+left: 50%;
+bottom: -10px;
+width: 40px;
+height: 2px;
+transform: translateX(-50%);
+background-color: #e65f78;
+transition: .5s;
+}
+.services-card:hover  h5::before{
+width: 60px;
+}
+
+/* end services */
+/* start cta  */
+.cta p{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.cta p{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.cta button{
+    padding: .9rem 2rem ;
+    background-color: #e65f78;
+    color: white;
+    font-weight: 500;
+    font-size: .9rem;
+}
+/* end cta  */
+/* start client  */
+.carousel-item .icon-carousel i{
+    color: #e65f78;
+}
+.img-carousel{
+    max-width: 120px;
+    margin: auto;
+}
+.carousel-item .client_review{
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #e65f78;
+border-top: none;
+border-bottom: none;
+height: 6px;
+width: 10px;
+border-radius: 10px;
+transition: .5s;
+}
+.carousel-indicators .active{
+width: 20px;
+}
+/* end client  */
+ /* start portolio  */
+.portfolio .overlay-img{
+    background-color:transparent;
+    transition: .5s;
+}
+.portfolio .text-img{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50% , -50% );
+transition: .5s;
+opacity: 0;
+}
+.portfolio .text-img p{
+color: rgb(255 255 255 / 60%);
+}
+.portfolio .text-img h4{
+font-size: 1.3rem;
+}
+.content-portfolio:hover .overlay-img{
+    background-color: rgb(0 0 0 / 80%);
+}
+.img-portfolio img{
+    transition: .5s;
+}
+.content-portfolio:hover .img-portfolio img{
+    transform: scale(1.1);
+}
+.content-portfolio:hover .text-img{
+    top: 50%;
+    opacity: 1;
+}
+.nav-pills .nav-link{
+    color: #000;
+    transition:all .5s;
+}
+.nav-pills .nav-link:hover{
+    background-color: #e65f78;
+    color: #fff;
+}
+.nav-pills .nav-link.active{
+    background-color: #e65f78;
+    color: #fff;
+}
+ /* end portolio  */
+ /* start blog  */
+ a.text-custom.fw-bold{
+     color: #e65f78;
+ }
+ /* end blog  */
+/* start contact */
+.contact .icon i{
+    color: #e65f78;
+}
+.contact form input{
+    padding: 10px 12px ;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    transition: all .5s;
+}
+.contact form input::placeholder{
+    text-transform: capitalize;
+}
+.contact form input:focus{
+box-shadow: 0 0 0 0.2rem rgb(230 95 120 / 38%);
+}
+.contact form textarea {
+    padding: 10px 12px ;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    transition: all .5s;
+}
+.contact form textarea::placeholder {
+    text-transform: capitalize;
+}
+.contact form textarea:focus {
+    box-shadow: 0 0 0 0.2rem rgb(230 95 120 / 38%);
+}
+input#submit{
+    background-color: #e65f78;
+}
+/* end contact */
+/* start footer  */
+.footer.py-5 {
+background-color: rgb(33 33 33);
+}
+.footer .footer-alt ul li a{
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: rgba(241, 241, 241, 0.08);
+    width: 44px;
+    height: 44px;
+    display: block;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+}
+.footer ul li a{
+    display: block;
+    width: 44px ;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgb(241 241 241 / 8%);
+text-align: center;
+line-height: 44px;
+}
+.footer ul li a i{
+color: #ababab;
+transition: all .5s;
+}
+.footer ul li a:hover i{
+color:#e65f78;
+}
+.footer p{
+    color: #ababab;
+}
+/* end footer  */
